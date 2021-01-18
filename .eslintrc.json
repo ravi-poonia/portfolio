@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "ignorePatterns": "public",
+  "rules": {
+    "prefer-const": [
+      "warn",
+      {
+        "destructuring": "all"
+      }
+    ]
+  }
+}
